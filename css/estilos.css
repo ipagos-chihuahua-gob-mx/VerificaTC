@@ -1,0 +1,91 @@
+@charset "utf-8";
+/* CSS Document */
+body{ background-color:#FFF; }
+.body { margin: 0; padding: 0; }
+.body2{ color:#008899; }
+div{ max-width:100%; }
+
+
+
+#Estilo1{ font-family:Arial, Helvetica, sans-serif; color:#4146c1; font-size:85%; font-style:italic; font-weight:bold; }
+.Estilo1{ font-family:Arial, Helvetica, sans-serif; color:#4146c1; font-size:80%; font-style:italic; font-weight:bold; padding:8px          8px 8px 8px; }
+.Estilo2{ font-family:Arial, Helvetica, sans-serif; color:#666666; font-size:60%; padding:8px 8px 8px 8px; }
+#Estilo2{ font-family:Arial, Helvetica, sans-serif; color:#666666; font-size:60%; }
+#Estilo2-1{ font-family:Arial, Helvetica, sans-serif; color:#666666; font-size:60%; }
+.Estilo3{ font-family:Arial, Helvetica, sans-serif; color:#4146c1; font-size:100%; font-style:italic; font-weight:bold; }
+.Estilo4{ font-family:Arial, Helvetica, sans-serif; color:#4146c1; font-size:100%; font-weight: bold; }
+.Estilo5{ font-family:Arial, Helvetica, sans-serif; color:#4146c1; font-size:100%; font-weight:bold; }
+.Estilo6{ font-family:Arial, Helvetica, sans-serif; font-size:80%; }
+.Estilo7{ font-family:Arial, Helvetica, sans-serif; font-size:100%; color:#4146c1; font-style:italic; font-weight:bold; }
+.Estilo8{ font-family:Arial, Helvetica, sans-serif; font-size:115%; color:#4146c1; font-style:italic; font-weight:bold; }
+.Estilo9{ font-family:Arial, Helvetica, sans-serif; font-size:75%;  color:#4146c1; font-style:italic;  }
+.Estilo10{ font-family:Arial, Helvetica, sans-serif; font-size:85%; }
+.Estilo11{ font-family:Arial, Helvetica, sans-serif; font-size:80%; font-weight:bold; }
+
+.pEspacio{ line-height:22px; }
+
+.Strong{ font-weight:bold; }
+#Strong{ font-weight:bold; }
+
+.tabla1{ max-width:100%; width:100%; height:24%; border-collapse:collapse; }
+.tabla2{ max-width:100%; width:100%; border-collapse:collapse; }
+.tabla3{ max-width:100%; width:100%; border-collapse:collapse; }
+.tabla4{ max-width:100%; width:100%; }
+.tabla5{ max-width:100%; width:70%; max-width:100%; margin:0 auto;  }
+.tabla6{ max-width:100%; width:80%; margin:0 auto; }
+.tabla7{ max-width:100%; width:90%; margin:0 auto; border:0;  }
+.tabla8{ max-width:100%; width:85%; margin:0 auto; }
+.tabla9{ max-width:100%; width:71%; }
+.tabla10{ max-width:100%; width:75%; border:0; }
+
+.tdFondo{ max-width:100%; background-image:url(../images/BannerSupFondo.gif); width:100%; height:88px; top:0; margin:0; }
+.tdArriba{ max-width:100%; margin:0; top:0; padding:0; vertical-align:top; }
+
+.tdCenter{ max-width:100%; text-align:center; }
+.tdRight{ max-width:100%; text-align:right; }
+.tdLeft{ max-width:100%; text-align:left; }
+#tdCenter{ max-width:100%; text-align:center; }
+#tdRight{ max-width:100%; text-align:right; }
+#tdLeft{ max-width:100%; text-align:left; }
+#td5{ max-width:100%; width:5%; text-align:right; }
+#td5-1{ max-width:100%; width:5%;  }
+#td25{ max-width:100%; width:30%; text-align:left; }
+#td25-1{ max-width:100%; width:30%; text-align:left; }
+#td55{ max-width:100%; width:55%; text-align:left; }
+#td10{ max-width:100%; width:10%; text-align:center; }
+#td15P{ max-width:100%; width:15%; text-align:right; }
+#td65{ max-width:100%; width:65%; text-align:right; }
+#td15-2{ max-width:100%; width:15%; text-align:right; }
+#td13{ max-width:100%; width:13%; }
+.td5-2{ max-width:100%; width:5%; font-weight:bold; }
+#td30{ max-width:100%; width:30%; text-align:left; }
+#td35{ max-width:100%; width:35%; text-align:left; }
+.td1{ max-width:100%; width:1%; }
+#td8{ max-width:100%; width:8%; font-weight:bold; }
+#td23{ max-width:100%; width:23%; font-weight:bold; }
+#td9{ max-width:100%; width:9%; font-weight:bold; }
+#td9-1{ max-width:100%; width:9%; font-weight:bold; text-align:right; }
+.td10-1{ max-width:10%; width:10%; font-weight:bold; text-align:right; }
+#td27{ max-width:100%; width:27%; font-weight:bold; }
+
+.contenedorPincipal { max-width:100%; width:100%;  margin:0 auto; text-align:center; }
+
+.divLeft{ max-width:100%; text-align:left; }
+.divRight{ max-width:100%; text-align:right; }
+.divCenter{ max-width:100%; text-align:center; }
+.divJustify{ max-width:100%; text-align:justify; }
+#divLeft{ max-width:100%; text-align:left; }
+#divRight{ max-width:100%; text-align:right; }
+#divCenter{ max-width:100%; text-align:center; }
+#divJustify{ max-width:100%; text-align:justify; }
+.divEspacio1{ max-width:100%; width:100%; height:30px; } 
+.divEspacio2{ max-width:100%; width:100%; height:190px; }
+.divEspacio3{ max-width:100%; width:100%; height:15px; }
+
+.img{ float:left; }
+
+
+.h1 { font-family:Arial, Helvetica, sans-serif; color:#666666; font-size:60%; text-align:center; }
+.h2{ font-family:Arial, Helvetica, sans-serif; color:#08108c; font-size:150%; font-style:italic; text-align:center; }
+.link { font-family:Arial, Helvetica, sans-serif; font-size:100%; text-align:center; }
+A.link:link, A.link:visited { color:#006699; }

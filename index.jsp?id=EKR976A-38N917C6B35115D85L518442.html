@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Verificación de la Tarjeta de Circulación</title>
+  <style>
+    body {
+      margin: 0;
+      background-color: #ffffff;
+      font-family: serif;
+    }
+
+    .header {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      background-color: #ffffff;
+      z-index: 1000;
+      padding-top: 10px;
+    }
+
+    .banner-container {
+      width: 567px;
+      margin: 0 auto;
+      text-align: center;
+    }
+
+    .divider {
+      margin: 4px 0;
+    }
+
+    .content {
+      padding-top: 150px;
+      padding-bottom: 30px; /* Prevent overlap with footer */
+      display: flex;
+      justify-content: center;
+    }
+
+    table {
+      width: 600px;
+      border-collapse: collapse;
+    }
+
+    th {
+      font-size: 2.0em;
+      font-weight: bold;
+      text-align: center;
+      padding-bottom: 20px;
+    }
+
+    td {
+      padding: 6px 8px;
+      vertical-align: top;
+    }
+
+    td p {
+      margin: 0;
+      line-height: 2.4;
+    }
+
+    .label {
+      text-align: right;
+      white-space: nowrap;
+      width: 40%;
+    }
+
+    .value {
+      text-align: left;
+      width: 60%;
+    }
+
+    tbody tr:first-child td {
+      padding-top: 10px;
+    }
+
+    .footer-frame {
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      height: 30px; /* Increased from 20px to prevent clipping */
+      border: none;
+      z-index: 1000;
+    }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <div class="banner-container">
+      <img src="images/bannerVerificaTC.gif" alt="Secretaría de Hacienda" width="567" height="88">
+      <div class="divider">
+        <img src="images/DivisionBlanco.png" alt="División Blanco" width="1" height="1">
+      </div>
+      <div class="divider">
+        <img src="images/DivisionColor.png" alt="División Color" width="1" height="1">
+      </div>
+    </div>
+  </div>
+
+  <div class="content">
+    <table>
+      <thead>
+        <tr>
+          <th colspan="2">DATOS DEL VEHÍCULO</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td class="label"><p>RFC:</p></td><td class="value"><p>CAAB8412285L8</p></td></tr>
+        <tr><td class="label"><p>PROPIETARIO:</p></td><td class="value"><p>ESPARZA LEIJA CEREZMI</p></td></tr>
+        <tr><td class="label"><p>PLACA:</p></td><td class="value"><p>EKR976A</p></td></tr>
+        <tr><td class="label"><p>NÚMERO DE SERIE:</p></td><td class="value"><p>3N1CB51D85L518442</p></td></tr>
+        <tr><td class="label"><p>MARCA:</p></td><td class="value"><p>NISSAN</p></td></tr>
+        <tr><td class="label"><p>LÍNEA:</p></td><td class="value"><p>SENTRA</p></td></tr>
+        <tr><td class="label"><p>MODELO:</p></td><td class="value"><p>2005</p></td></tr>
+        <tr><td class="label"><p>COLOR:</p></td><td class="value"><p>BLANCO</p></td></tr>
+        <tr><td class="label"><p>ORIGEN:</p></td><td class="value"><p>NACIONAL</p></td></tr>
+        <tr><td class="label"><p>REPUVE:</p></td><td class="value"><p>5K6B501M</p></td></tr>
+        <tr><td class="label"><p>VIGENCIA:</p></td><td class="value"><p>2025</p></td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- Embedded footer from external file -->
+  <iframe src="footer.html" class="footer-frame" scrolling="no"></iframe>
+</body>
+</html>
